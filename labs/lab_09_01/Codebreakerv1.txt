@@ -1,0 +1,38 @@
+`timescale 1ns / 1ps
+`default_nettype none
+
+/***************************************************************************
+*
+* Module: 
+*
+* Author: Nathan Bennion
+* Class: ECEN 220, Section 1, Winter 2022
+* Date: 
+*
+* Description: 
+*
+*
+****************************************************************************/
+
+
+module Codebreaker(
+
+            input wire logic clk,
+            input wire logic reset,
+            input wire logic start,
+            output logic [15:0] key_display,
+            output logic stopwatch_run,
+            output logic draw_plaintext,
+            input wire logic done_drawing_plaintext,
+            output logic [127:0] plaintext_to_draw     
+            );  
+            
+            
+    assign key_display = 0;
+    assign stopwatch_run = 1;
+    assign draw_plaintext = start;
+    assign plaintext_to_draw = {"INEEDSLEEP"}; 
+               
+               
+               
+   endmodule

@@ -1,0 +1,172 @@
+
+*** Running vivado
+    with args -log seven_segment_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source seven_segment_top.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source seven_segment_top.tcl -notrace
+Command: synth_design -top seven_segment_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19395 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1955.371 ; gain = 201.719 ; free physical = 1481 ; free virtual = 20139
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'seven_segment_top' [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'seven_segment' [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment' (1#1) [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment_top' (2#1) [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.sv:18]
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2016.121 ; gain = 262.469 ; free physical = 1515 ; free virtual = 20173
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2020.090 ; gain = 266.438 ; free physical = 1510 ; free virtual = 20168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2020.090 ; gain = 266.438 ; free physical = 1510 ; free virtual = 20168
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2020.090 ; gain = 0.000 ; free physical = 1504 ; free virtual = 20162
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Sourcing Tcl File [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:1]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:3]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:4]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:6]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:7]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:9]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:10]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:12]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:13]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:15]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:16]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:18]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:19]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:21]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:22]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:24]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:25]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:27]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:28]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:30]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:31]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:33]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:34]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:36]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:37]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:39]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:40]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:42]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:43]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:45]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:46]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:48]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl:49]
+Finished Sourcing Tcl File [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seven_segment_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/seven_segment_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/synth.xdc]
+Finished Parsing XDC File [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/synth.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/synth.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seven_segment_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/seven_segment_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:1]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:3]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:5]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:6]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:8]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:9]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:11]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:12]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:14]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:15]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:17]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:18]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:20]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:21]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:23]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:24]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:26]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:27]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:29]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:30]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:32]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:33]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:35]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:36]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:38]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:39]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:41]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:42]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:44]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:45]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:47]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:48]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:50]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:51]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:53]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:55]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:56]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:58]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:59]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:61]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:62]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:64]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:65]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:67]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:68]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:70]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:71]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:73]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:74]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:76]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:77]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:79]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:80]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:82]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:83]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:85]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:86]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:88]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:89]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:91]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:92]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:94]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:95]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:97]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:98]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:100]
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:101]
+INFO: [Common 17-14] Message 'Simulator 45-6' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl:101]
+Finished Sourcing Tcl File [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/auto/fsi/nrbenn14/ECEn_220/labs/lab06/proj/seven_segment_top.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seven_segment_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/seven_segment_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 4 Warnings, 0 Critical Warnings and 101 Errors encountered.
+synth_design failed
+ERROR: [Project 1-581] Command stopped due to earlier errors.
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 11 16:54:38 2022...
+Parent process (pid 19370) has died. This helper process will now exit

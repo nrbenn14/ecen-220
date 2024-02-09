@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEn_220/labs/lab_08/SevenSegmentControl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevenSegmentControl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEn_220/labs/lab_08/debounce.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEn_220/labs/lab_08/mod_counter_08.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_counter_08
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEn_220/labs/lab_08/debounce_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "J:/ECEn_220/labs/lab_08/lab_08.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

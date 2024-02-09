@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1649716594">
+  <File Type="PA-TCL" Name="top_object_drawer.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_object_drawer_reports.tcl"/>
+  <File Type="OPT-DCP" Name="top_object_drawer_opt.dcp"/>
+  <File Type="OPT-DRC" Name="top_object_drawer_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_object_drawer.hwdef"/>
+  <File Type="PWROPT-DCP" Name="top_object_drawer_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="top_object_drawer_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_object_drawer_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_object_drawer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_object_drawer_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_object_drawer_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_object_drawer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_object_drawer_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="top_object_drawer_physopt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_object_drawer_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_object_drawer_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_object_drawer_routed_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BIT" Name="top_object_drawer.bit"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_object_drawer_bus_skew_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="top_object_drawer.msk"/>
+  <File Type="BITSTR-RBT" Name="top_object_drawer.rbt"/>
+  <File Type="BITSTR-NKY" Name="top_object_drawer.nky"/>
+  <File Type="BITSTR-BMM" Name="top_object_drawer_bd.bmm"/>
+  <File Type="PDI-FILE" Name="top_object_drawer.pdi"/>
+  <File Type="ROUTE-DRC" Name="top_object_drawer_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="top_object_drawer.mmi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_object_drawer_postroute_physopt.dcp"/>
+  <File Type="ROUTE-DRC-PB" Name="top_object_drawer_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="top_object_drawer.bgn"/>
+  <File Type="BG-BIN" Name="top_object_drawer.bin"/>
+  <File Type="RCFI_FILE" Name="top_object_drawer.rcfi"/>
+  <File Type="RDI-RDI" Name="top_object_drawer.vdi"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_object_drawer_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="top_object_drawer.drc"/>
+  <File Type="CFI_FILE" Name="top_object_drawer.cfi"/>
+  <File Type="ROUTE-PWR" Name="top_object_drawer_power_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="top_object_drawer.sysdef"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_object_drawer_postroute_physopt_bb.dcp"/>
+  <File Type="NPI_FILE" Name="top_object_drawer.npi"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_object_drawer_power_routed.rpx"/>
+  <File Type="RNPI_FILE" Name="top_object_drawer.rnpi"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_object_drawer_power_summary_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="top_object_drawer.ltx"/>
+  <File Type="RBD_FILE" Name="top_object_drawer.rbd"/>
+  <File Type="ROUTE-STATUS" Name="top_object_drawer_route_status.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_object_drawer_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_object_drawer_bus_skew_routed.pb"/>
+  <File Type="ROUTE-CLK" Name="top_object_drawer_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_object_drawer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_object_drawer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_object_drawer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_object_drawer_route_status.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_object_drawer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_object_drawer_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_object_drawer_methodology_drc_routed.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/clk_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/BitmapToVga.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/VLineDrawer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/top_object_drawer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/BallDrawer.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_object_drawer"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/synth.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

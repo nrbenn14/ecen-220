@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/Add8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Add8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/FullAdd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/proj/arithmetic_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/Downloads/tb_arithmetic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_arithmetic
+INFO: [VRFC 10-2263] Analyzing Verilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/proj/proj.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../SevenSegmentControl.sv" \
+"../../../../mod_counter.sv" \
+"../../../../stopwatch.sv" \
+"../../../../stopwatch_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

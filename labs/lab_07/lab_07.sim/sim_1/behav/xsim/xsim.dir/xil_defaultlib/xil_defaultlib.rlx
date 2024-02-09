@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/SevenSegmentControl.sv,1646760906,systemVerilog,,/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/mod_counter.sv,,SevenSegmentControl,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/lab_07.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/mod_counter.sv,1646756867,systemVerilog,,/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/stopwatch.sv,,mod_counter,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/stopwatch.sv,1646761402,systemVerilog,,/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/stopwatch_top.sv,,stopwatch,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/stopwatch_top.sv,1646761409,systemVerilog,,,,stopwatch_top,,,,,,,,

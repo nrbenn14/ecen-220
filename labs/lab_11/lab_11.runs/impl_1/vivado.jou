@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr 11 16:36:36 2022
+# Process ID: 16065
+# Current directory: /auto/fsi/nrbenn14/ECEn_220/labs/lab_11/lab_11.runs/impl_1
+# Command line: vivado -log top_object_drawer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_object_drawer.tcl -notrace
+# Log file: /auto/fsi/nrbenn14/ECEn_220/labs/lab_11/lab_11.runs/impl_1/top_object_drawer.vdi
+# Journal file: /auto/fsi/nrbenn14/ECEn_220/labs/lab_11/lab_11.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_object_drawer.tcl -notrace

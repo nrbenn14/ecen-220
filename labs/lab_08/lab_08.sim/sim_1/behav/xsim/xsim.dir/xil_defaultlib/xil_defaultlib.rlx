@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+J:/ECEn_220/labs/lab_08/SevenSegmentControl.sv,1647308749,systemVerilog,,J:/ECEn_220/labs/lab_08/debounce.sv,,SevenSegmentControl,,,,,,,,
+J:/ECEn_220/labs/lab_08/debounce.sv,1647310017,systemVerilog,,J:/ECEn_220/labs/lab_08/mod_counter_08.sv,,debounce,,,,,,,,
+J:/ECEn_220/labs/lab_08/debounce_top.sv,1647308747,systemVerilog,,,,debounce_top,,,,,,,,
+J:/ECEn_220/labs/lab_08/lab_08.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+J:/ECEn_220/labs/lab_08/mod_counter_08.sv,1647308209,systemVerilog,,J:/ECEn_220/labs/lab_08/debounce_top.sv,,mod_counter_08,,,,,,,,

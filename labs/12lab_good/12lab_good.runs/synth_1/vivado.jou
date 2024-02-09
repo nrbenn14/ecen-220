@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr 11 17:27:59 2022
+# Process ID: 27481
+# Current directory: /auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/12lab_good.runs/synth_1
+# Command line: vivado -log top_pong.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_pong.tcl
+# Log file: /auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/12lab_good.runs/synth_1/top_pong.vds
+# Journal file: /auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/12lab_good.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_pong.tcl -notrace

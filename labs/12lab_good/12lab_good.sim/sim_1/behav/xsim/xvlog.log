@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/clk_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/BallDrawer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BallDrawer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/BitmapToVga.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BitmapToVga
+INFO: [VRFC 10-311] analyzing module VgaRam
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/Pong.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pong
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/SevenSegmentControl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevenSegmentControl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/VLineDrawer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VLineDrawer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/top_pong.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_pong
+INFO: [VRFC 10-2263] Analyzing Verilog file "/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/12lab_good.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

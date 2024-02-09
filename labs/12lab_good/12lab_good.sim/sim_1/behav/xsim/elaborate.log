@@ -1,0 +1,24 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto c8ac1f9239484dc78a1296b6f97893bb --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_pong_behav xil_defaultlib.top_pong xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'height' [/auto/fsi/nrbenn14/ECEn_220/labs/12lab_good/Pong.sv:347]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BallDrawer
+Compiling module xil_defaultlib.VLineDrawer
+Compiling module xil_defaultlib.Pong
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=9,CLKIN1...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_generator
+Compiling module xil_defaultlib.VgaRam
+Compiling module xil_defaultlib.BitmapToVga_default
+Compiling module xil_defaultlib.SevenSegmentControl
+Compiling module xil_defaultlib.top_pong
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_pong_behav

@@ -1,0 +1,95 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Tue Apr 12 09:50:58 2022
+| Host         : DIGITAL-58 running 64-bit Ubuntu 18.04.6 LTS
+| Command      : report_control_sets -verbose -file top_pong_control_sets_placed.rpt
+| Design       : top_pong
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    17 |
+|    Minimum number of control sets                        |    17 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    39 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    17 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |    10 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              10 |            8 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              83 |           27 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              76 |           30 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+-------------------------------+---------------------------------------------+------------------+----------------+
+|         Clock Signal        |         Enable Signal         |               Set/Reset Signal              | Slice Load Count | Bel Load Count |
++-----------------------------+-------------------------------+---------------------------------------------+------------------+----------------+
+|  clk_generator_inst/clk_100 |                               |                                             |                3 |              5 |
+|  clk_generator_inst/clk_25  |                               |                                             |                5 |              5 |
+|  clk_generator_inst/clk_100 |                               | Pong_inst/VLineDrawer_inst/clear            |                3 |              8 |
+|  clk_generator_inst/clk_100 |                               | Pong_inst/VLineDrawer_inst/y_out[7]_i_1_n_0 |                2 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/P1_PADDLE_H_1       |                                             |                2 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/P1score1            | Pong_inst/clearX                            |                2 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/P1score[7]_i_1_n_0  | Pong_inst/clearX                            |                3 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/RPaddleY[7]_i_2_n_0 | Pong_inst/RPaddleY[7]_i_1_n_0               |                6 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/P2_PADDLE_H_0       |                                             |                2 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/LPaddleY[7]_i_2_n_0 | Pong_inst/LPaddleY[7]_i_1_n_0               |                5 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/clearY[7]_i_1_n_0   | btnc_IBUF                                   |                2 |              8 |
+|  clk_generator_inst/clk_100 | Pong_inst/clearX              | btnc_IBUF                                   |                3 |              9 |
+|  clk_generator_inst/clk_25  | BitmapToVga_inst/hcount_clear | BitmapToVga_inst/vcount[9]_i_1_n_0          |                3 |             10 |
+|  clk_generator_inst/clk_25  |                               | BitmapToVga_inst/hcount[9]_i_1_n_0          |                2 |             10 |
+|  clk_generator_inst/clk_100 | Pong_inst/moveAndScore        | Pong_inst/clearX                            |                6 |             17 |
+|  clk_generator_inst/clk_100 |                               | btnc_IBUF                                   |               12 |             25 |
+|  clk_generator_inst/clk_100 |                               | Pong_inst/VLineDrawer_inst/timerRst         |                8 |             32 |
++-----------------------------+-------------------------------+---------------------------------------------+------------------+----------------+
+
+

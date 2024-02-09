@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../clk_generator.v" \
+
+sv xil_defaultlib  \
+"../../../../CharDrawer_serial.sv" \
+"../../../../Codebreaker.sv" \
+"../../../../SevenSegmentControl.sv" \
+"../../../../decrypt_rc4.sv" \
+"../../../../mod_counter.sv" \
+"../../../../stopwatch.sv" \
+"../../../../tx.sv" \
+"../../../../codebreaker_serial_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

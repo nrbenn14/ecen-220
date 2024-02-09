@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../clk_generator.v" \
+
+sv xil_defaultlib  \
+"../../../../BallDrawer.sv" \
+"../../../../BitmapToVga.sv" \
+"../../../../Pong.sv" \
+"../../../../SevenSegmentControl.sv" \
+"../../../../VLineDrawer.sv" \
+"../../../../top_pong.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/auto/fsi/nrbenn14/Downloads/tb_arithmetic.sv,1644956501,systemVerilog,,,,tb_arithmetic,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/Add8.sv,1644954867,systemVerilog,,/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/FullAdd.sv,,Add8,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/FullAdd.sv,1644954870,systemVerilog,,/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/proj/arithmetic_top.sv,,FullAdd,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/proj/arithmetic_top.sv,1644956547,systemVerilog,,/auto/fsi/nrbenn14/Downloads/tb_arithmetic.sv,,arithmetic_top,,,,,,,,
+/auto/fsi/nrbenn14/ECEn_220/labs/lab05/proj/proj/proj.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,

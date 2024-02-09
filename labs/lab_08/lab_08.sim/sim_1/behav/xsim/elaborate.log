@@ -1,0 +1,18 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto cfc7bbc2b3ff4b9c85034e5f3ef6118c --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot debounce_top_behav xil_defaultlib.debounce_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "J:/ECEn_220/labs/lab_08/SevenSegmentControl.sv" Line 12. Module SevenSegmentControl doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mod_counter_08(MOD_VALUE=500000,...
+Compiling module xil_defaultlib.debounce
+Compiling module xil_defaultlib.mod_counter_08
+Compiling module xil_defaultlib.SevenSegmentControl
+Compiling module xil_defaultlib.debounce_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot debounce_top_behav

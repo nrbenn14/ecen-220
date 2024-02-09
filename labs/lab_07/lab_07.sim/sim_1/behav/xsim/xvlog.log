@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/SevenSegmentControl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevenSegmentControl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/mod_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/stopwatch.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/stopwatch_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_07/lab_07.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

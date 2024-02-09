@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar 14 20:30:30 2022
+# Process ID: 19260
+# Current directory: J:/ECEn_220/labs/lab_08/lab_08.runs/synth_1
+# Command line: vivado.exe -log debounce_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source debounce_top.tcl
+# Log file: J:/ECEn_220/labs/lab_08/lab_08.runs/synth_1/debounce_top.vds
+# Journal file: J:/ECEn_220/labs/lab_08/lab_08.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source debounce_top.tcl -notrace

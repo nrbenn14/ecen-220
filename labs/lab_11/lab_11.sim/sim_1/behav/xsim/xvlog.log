@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_11/VLineDrawer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VLineDrawer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/auto/fsi/nrbenn14/ECEn_220/labs/lab_11/lab_11.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
